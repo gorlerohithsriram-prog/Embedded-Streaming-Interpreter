@@ -25,8 +25,8 @@
         based.
         b. Design a extensible but efficient packet structure that can
         encapsulate details related to instruction batches, data batches and any
-        other protocol specific interactions. Mention bit width and valid values
-        for each field.
+        other protocol specific interactions.
+        c. Mention bit width and valid values for each field.
         d. Program sender and receiver functions for the host and various
         devices that can parse the packets efficiently.
     2. Creating an Intermediate Representation (IR) that can capture semantics
@@ -68,5 +68,7 @@
     connect with various types of boards.
     5. Allowing debugging information of the host and devices to be accessed
     via a suitable logging format.
-        a. Host time and device time should be separate from each other.
+        a. Specific info should be exposed to the user that can be logged using
+        commands or code.
+        b. Host time and device time should be separate from each other.
         b. Frequency of logging debug information should be configurable.
